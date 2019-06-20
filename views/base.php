@@ -13,7 +13,8 @@ use app\components\Helper;
 <html>
 <head>
     <meta charset="UTF-8">
-    <title><?= $title; ?></title>
+	<title><?= $title; ?></title>
+	<link rel="shortcut icon" type="image/png" href="https://www.tlu.ee/themes/tlu/images/favicons/favicon.ico"/>
 	<link href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="/css/site.css?v=1">
 </head>
@@ -101,7 +102,7 @@ use app\components\Helper;
 		</div>
 		<div class="white-section">
 			<div class="upper-footer">
-				<div class="footer-section">
+				<div class="footer-section footer-section-1">
 					<h3>Tule ülikooli</h3>
 					<a href="https://www.tlu.ee/opilasakadeemia">Õpilasakadeemia</a>
 					<a href="https://www.tlu.ee/avatudope">Avatud tasemeõpe</a>
@@ -109,7 +110,7 @@ use app\components\Helper;
 					<a href="https://www.tlu.ee/konverentsikeskus/konverentsiteenused">Konverentsiteenused</a>
 					<a href="https://www.tlu.ee/sisseastujale">Sisseastumine</a>
 				</div>
-				<div class="footer-section">
+				<div class="footer-section footer-section-2">
 					<h3>Õpingud</h3>
 					<a href="https://www.tlu.ee/akadeemiline-kalender">Akadeemiline kalender</a>
 					<a href="https://www.tlu.ee/op/oppimine-valismaal">Õppimine välismaal</a>
@@ -118,7 +119,7 @@ use app\components\Helper;
 					<a href="https://www.esindus.ee/">Üliõpilaselu</a>
 					<a href="http://www.dormitorium.ee/">Üliõpilaselamud</a>
 				</div>
-				<div class="footer-section">
+				<div class="footer-section footer-section-3">
 					<h3>Ülikoolist</h3>
 					<a href="https://www.tlu.ee/taxonomy/term/93/pressikeskus">Pressikeskus</a>
 					<a href="https://www.tlu.ee/ulikooli-linnak">Linnak</a>
@@ -130,8 +131,8 @@ use app\components\Helper;
 			</div>
 			<div class="lower-footer">
 				<div class="logo-aligner">
-					<div class="footer-logo-container"><a href="#"><img src="https://www.tlu.ee/sites/default/files/styles/logo/public/2018-02/euraxess.png?itok=DaVs6YBF" alt="EURAXESS"></a></div>
-					<div class="footer-logo-container"><a href="#"><img src="https://www.tlu.ee/sites/default/files/styles/logo/public/2018-02/unica.png?itok=FjuLbc5B" alt="UNICA"></a></div>
+					<div class="footer-logo-container"><a href="https://euraxess.ec.europa.eu/"><img src="https://www.tlu.ee/sites/default/files/styles/logo/public/2018-02/euraxess.png?itok=DaVs6YBF" alt="EURAXESS"></a></div>
+					<div class="footer-logo-container"><a href="http://www.unica-network.eu/"><img src="https://www.tlu.ee/sites/default/files/styles/logo/public/2018-02/unica.png?itok=FjuLbc5B" alt="UNICA"></a></div>
 					<div class="footer-logo-container"><a href="https://eua.eu/"><img src="https://www.tlu.ee/sites/default/files/styles/logo/public/2018-02/eua.png?itok=pm_WC44k" alt="EUA"></a></div>
 					<div class="footer-logo-container"><a href="#"><img src="https://www.tlu.ee/sites/default/files/styles/logo/public/2018-02/observatory.png?itok=C6snr_HL" alt="Observatory"></a></div>
 					<div class="footer-logo-container"><a href="#"><img src="https://www.tlu.ee/sites/default/files/styles/logo/public/2018-02/baltic.png?itok=FWLicpT3" alt="The Baltic University"></a></div>

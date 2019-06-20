@@ -34,8 +34,7 @@ Helper::setTitle("Pealeht");
 			<div class="filter-options">
 				<?php foreach($topics as $topic): ?>
 					<div>
-						<input type="checkbox" class="topic" id="topic-id-<?= $topic->id ?>" value="<?= $topic->id ?>">
-						<label for="topic-id-<?= $topic->id ?>"><?= $topic->name ?></label>
+						<label for="topic-id-<?= $topic->id ?>"><input type="checkbox" class="topic" id="topic-id-<?= $topic->id ?>" value="<?= $topic->id ?>"><?= $topic->name ?></label>
 					</div>
 				<?php endforeach; ?>
 			</div>
@@ -143,6 +142,7 @@ Helper::setTitle("Pealeht");
 		uniIconContainer.className = "university-icon";
 		let uniIcon = document.createElement("img");
 		uniIcon.src = icon;
+		uniIcon.alt = "🎓";
 		uniIconContainer.appendChild(uniIcon);
 		
 		let uniText = document.createElement("div");
